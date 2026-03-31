@@ -8,3 +8,35 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# ML / data
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+data/
+models/
+
+# Logs & outputs
+logs/
+outputs/
+runs/
+mlruns/
+wandb/
+
+# IDE
+.vscode/
+.idea/
